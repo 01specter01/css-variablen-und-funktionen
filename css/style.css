@@ -5,6 +5,10 @@
   font-family: Helvetica;
 }
 
+:root {
+  --primary: #5939cb;
+}
+
 body {
   width: 100%;
   height: 100%;
@@ -25,7 +29,7 @@ div.example {
 }
 #register {
   text-decoration: none;
-  color: #7d61e1;
+  color: var(--primary);
 }
 
 #headlogo {
@@ -38,7 +42,12 @@ input {
 }
 
 span#xox {
+  position: absolute;
+  top: 25px;
+  left: -50;
   padding: 1rem;
+  z-index: 2;
+  color: black;
 }
 
 div#login-option {
@@ -46,6 +55,20 @@ div#login-option {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+}
+
+label {
+  z-index: 1;
+  position: relative;
+}
+
+input {
+  padding: 10px 30px 10px 70px;
+  position: relative;
+}
+
+:root {
+  --primary: #5939cb;
 }
 
 main {
@@ -57,7 +80,19 @@ main {
 main input {
   min-width: 400px;
   min-height: 45px;
-  align-items: center;
+}
+main button {
+  background-color: black;
+  color: white;
+  min-width: 400px;
+  min-height: 45px;
+}
+main button:hover {
+  background-color: rgb(100, 100, 100);
+  cursor: pointer;
+}
+main span {
+  color: var(--primary);
 }
 
 footer {
