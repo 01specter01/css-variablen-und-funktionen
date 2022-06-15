@@ -23,11 +23,14 @@
 //     color: #7d61e1;
 // }
 main {
-    width: 75%;
-    margin: 5rem;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 75%;
+    margin-right: 12.5%;
+    margin-left: 12.5%;
 
-    justify-content: center;
+    input {
+        min-width: 400px;
+        min-height: 45px;
+        align-items: center;
+    }
 }
