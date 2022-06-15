@@ -49,15 +49,15 @@ span#xoxheader {
 
 span#xoxlock {
   position: absolute;
-  top: 30px;
+  top: 1.9rem;
   padding: 1rem;
   z-index: 2;
   color: black;
 }
 
 span#xoxmail {
-  position: fixed;
-  top: 102px;
+  position: absolute;
+  top: 1.9rem;
   padding: 1rem;
   z-index: 2;
   color: black;
@@ -77,6 +77,9 @@ label {
 
 input {
   padding: 10px 30px 10px 70px;
+}
+
+form {
   position: relative;
 }
 
