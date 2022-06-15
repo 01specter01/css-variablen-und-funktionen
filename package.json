@@ -1,0 +1,22 @@
+{
+    "name": "css-variablen-und-funktionen",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "sass -w scss/style.scss css/style.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/01specter01/css-variablen-und-funktionen.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/01specter01/css-variablen-und-funktionen/issues"
+    },
+    "homepage": "https://github.com/01specter01/css-variablen-und-funktionen#readme",
+    "dependencies": {
+        "sass": "^1.52.3"
+    }
+}
