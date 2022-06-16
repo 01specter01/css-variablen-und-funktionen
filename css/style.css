@@ -92,6 +92,10 @@ form {
   position: relative;
 }
 
+.name-label {
+  border: solid black 1px;
+}
+
 :root {
   --primary: #5939cb;
 }
